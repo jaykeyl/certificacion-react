@@ -1,0 +1,41 @@
+<form>
+    <fieldset>
+        <label>
+            <input type="radio" value="presencial" name="modalidad">
+            Presencial
+        </label>
+        <label>
+            <input type="radio" value="virtual" name="modalidad">
+            Virtual
+        </label>
+    </fieldset>
+</form>
+
+<label for="turno"> Hey Jude </label>
+            <select name="turno" id="turno">
+                <option value="A"> Dont make it baad </option>
+                <option value="B"> Dont be afraid </option>
+                <option value="C"> Refrain </option>
+            </select>
+<br>
+<label for="comentario"> Comentario </label>
+    <textarea name="comentario" id="comentario"> </textarea>
+    </textarea>
+
+<br>
+
+<button> Vista Previa </button>
+
+<button type="Reset"> Limpiar </button>
+
+<button type="submit"> Guardar </button>
+
+<br>
+
+<form action="/guardar" method="POST">
+    <label for="name"> Put a lyric! </label>
+        <input name="name" id="name">
+    <label for="lastname"> Put its player! </label>
+        <input name="lastname" id="lastname">
+    <button type="submit"> Send </button>
+</form>
