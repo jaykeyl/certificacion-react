@@ -1,0 +1,12 @@
+h1, p {
+    background-color: red;
+    color: yellow;
+}
+
+#principal {
+    background-color: blue;
+}
+
+p {
+    background-color: blueviolet;
+}
