@@ -1,0 +1,17 @@
+.paragraph {
+    color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+
+form label {
+    color: blueviolet;
+}
+.form label {
+    color: cadetblue;
+}
+
+input[required] {
+    background-color: aliceblue;
+}
