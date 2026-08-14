@@ -1,0 +1,17 @@
+html {
+    background-color: #7890AB;
+}
+table {
+    background-color: #FFFFFF;
+}
+th, td {
+    border: 2px solid #123456;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    color: transparent;
+}
+td:hover {
+    color: lightblue;
+    background-color: aquamarine;
+}
