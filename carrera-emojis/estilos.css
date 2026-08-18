@@ -1,0 +1,58 @@
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pista {
+    position: relative;
+    height: 300px;
+    background-color: lightblue;
+    border: 4px solid blueviolet;
+    border-radius: 20px;
+}
+
+.meta {
+    position: absolute;
+    right: 40px;
+    height: 300px;
+    border-right: 5px dashed red;
+}
+
+.corredor {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    font-size: 50px;
+    transition: left 0.2s;
+}
+
+.gato {
+    top: 0;
+}
+
+.pez {
+    top: 100px;
+}
+
+.cohete {
+    top: 200px;
+}
+
+.boton:hover ~ .pista .gato {
+    left: 1600px;
+    transition: left 2s;
+}
+
+.boton:hover ~ .pista .pez {
+    left: 1600px;
+    transition: left 4s;
+}
+
+.boton:hover ~ .pista .cohete {
+    left: 1600px;
+    transition: left 1s;
+}
