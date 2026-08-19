@@ -14,10 +14,9 @@ jobs:
               run: echo "Hola mundo!"
             - name: descargar codigo
               uses: actions/checkout@v3
-            - name: What folder am I in?
+            - name: En que carpeta estoy?
               run: pwd
-            - name : Watching other files
+            - name: listar archivos
               run: ls -la
-
-            - name: installing node
-              run: actions/setup-node@v3
+            - name: instalar node
+              uses: actions/setup-node@v3
