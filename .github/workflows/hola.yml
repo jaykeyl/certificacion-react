@@ -23,3 +23,6 @@ jobs:
 
             -  name: node version
                run: node --version
+
+            - name: verify npm
+              run: npm --version
