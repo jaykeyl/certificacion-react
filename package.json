@@ -1,0 +1,26 @@
+{
+  "name": "certificacionreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check:js": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaykeyl/certificacion-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jaykeyl/certificacion-react/issues"
+  },
+  "homepage": "https://github.com/jaykeyl/certificacion-react#readme",
+  "devDependencies": {
+    "eslint": "github:eslint/js",
+    "globals": "^17.11.0"
+  }
+}
