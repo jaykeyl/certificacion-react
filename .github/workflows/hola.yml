@@ -16,3 +16,8 @@ jobs:
               uses: actions/checkout@v3
             - name: What folder am I in?
               run: pwd
+            - name : Watching other files
+              run: ls -la
+
+            - name: installing node
+              run: actions/setup-node@v3
