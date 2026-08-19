@@ -26,3 +26,9 @@ jobs:
 
             - name: verify npm
               run: npm --version
+
+            - name: start project with package json
+              run: npm init -y
+
+            - name: install eslint
+              run: npm install --save-dev eslint@eslint/js globals
