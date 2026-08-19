@@ -20,3 +20,6 @@ jobs:
               run: ls -la
             - name: instalar node
               uses: actions/setup-node@v3
+
+            -  name: node version
+              run: node --version
