@@ -14,15 +14,17 @@ jobs:
               run: echo "Hola mundo!"
             - name: descargar codigo
               uses: actions/checkout@v3
-            - name: En que carpeta estoy?
-              run: pwd
-            - name: listar archivos
-              run: ls -la
             - name: instalar node
               uses: actions/setup-node@v3
 
-            -  name: node version
-               run: node --version
+            - name: node version
+              run: node --version
 
             - name: verify npm
               run: npm --version
+
+            - name: clean install
+              run: npm ci
+
+            - name: check:js
+              run: npm run check:js
