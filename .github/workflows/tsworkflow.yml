@@ -25,7 +25,7 @@ jobs:
               run: npm ci
 
             - name: install typescript
-              run: npm install typescript
+              run: npm install typescript --save-dev
 
             - name: validate typescript code
-              run: tsc minesweeper.ts --noEmit
+              run: tsc clase16/minesweeper.ts --noEmit
