@@ -28,4 +28,4 @@ jobs:
               run: npm install typescript
 
             - name: validate typescript code
-              run: tsc --noEmit
+              run: tsc minesweeper.ts --noEmit
