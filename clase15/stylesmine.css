@@ -1,0 +1,25 @@
+html {
+    background-color: #7890AB;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #123456;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    color: transparent;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: aquamarine;
+}
+
+.revealed {
+    color: black;
+}
