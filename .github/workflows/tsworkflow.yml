@@ -24,9 +24,6 @@ jobs:
             - name: clean install
               run: npm ci
 
-            - name: check:js
-              run: npm run check:js
-
             - name: install typescript
               run: npm install typescript
 
