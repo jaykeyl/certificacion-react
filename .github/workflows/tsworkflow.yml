@@ -1,0 +1,34 @@
+name : TypeScript
+
+on:
+    workflow_dispatch:
+    push:
+        branches:
+            - main
+
+jobs:
+    hola:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: descargar codigo
+              uses: actions/checkout@v3
+            - name: instalar node
+              uses: actions/setup-node@v3
+
+            - name: node version
+              run: node --version
+
+            - name: verify npm
+              run: npm --version
+
+            - name: clean install
+              run: npm ci
+
+            - name: check:js
+              run: npm run check:js
+
+            - name: install typescript
+              run: npm install typescript
+
+            - name: validate typescript code
+              run: tsc --noEmit
