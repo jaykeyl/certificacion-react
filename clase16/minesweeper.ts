@@ -12,7 +12,9 @@
 // if(cell) {
 //     console.log(cell.textContent)
 // }
+let numero = 1
 
+numero = "2"
 let elementList = document.querySelectorAll("td")
 
 for (const element of elementList) {
