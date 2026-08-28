@@ -39,3 +39,6 @@ jobs:
                 name: web-application
                 path: ./clase18/contador/dist
 
+            - name: configure github pages
+              uses: actions/configure-pages@v5
+
