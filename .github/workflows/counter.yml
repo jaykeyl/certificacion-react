@@ -40,3 +40,6 @@ jobs:
               with:
                 path: ./clase18/contador/dist
 
+            - name: publish
+              uses: actions/deploy-pages@v4
+
