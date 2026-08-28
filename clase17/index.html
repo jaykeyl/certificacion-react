@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <section id="root"> </section>
+    </body>
+    
+    <script type="module"> import React from 'https://esm.sh/react@19.2.8'; 
+        console.log(React);
+        import {createRoot} from 'https://esm.sh/react-dom@19.2.8/client';
+        console.log(createRoot)
+
+        const container = document.querySelector("#root")
+        console.log(container);
+        const root = createRoot(container);
+        console.log(root)
+
+        function tresEnRaya(){
+            return React.createElement(
+                'section', {className: 'game'}, 
+                React.createElement('h1', null, 'Hey Jude'), 
+                React.createElement('p', null, 'Dont make it bad'));
+        }
+        
+        root.render(React.createElement(tresEnRaya))
+        </script>
+
+    </section>
+</html>
