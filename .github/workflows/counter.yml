@@ -27,6 +27,9 @@ jobs:
             - name: find proyect
               run: cd clase18/contador
 
+            - name: where am i
+              run: pwd
+
             - name: building
               run: npx vite build
 
