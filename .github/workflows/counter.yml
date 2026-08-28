@@ -21,20 +21,21 @@ jobs:
             - name: verify npm
               run: npm --version
 
-            - name: clean install
+            - name: Clean install
+              working-directory: ./clase18/contador
               run: npm ci
 
-            - name: find proyect
-              run: cd clase18/contador
-
-            - name: where am i
+            - name: Where am I
+              working-directory: ./clase18/contador
               run: pwd
 
-            - name: building
-              run: npx vite build
+            - name: Building
+              working-directory: ./clase18/contador
+              run: npm run build
 
             - name: Save zip
               uses: actions/upload-artifact@v4
               with:
                 name: web-application
-                path: ./dist 
+                path: ./clase18/contador/dist
+
