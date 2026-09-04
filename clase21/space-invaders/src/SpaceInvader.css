@@ -1,0 +1,26 @@
+.gun {
+    background: blueviolet;      
+    border: 1px solid #000;
+    width: 25rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shot {
+    background: lightpink;      
+    border: 1px solid;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+}
+
+.alien {
+    background: red;
+    border: 1px solid rebeccapurple;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+}
